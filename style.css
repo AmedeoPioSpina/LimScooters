@@ -1,0 +1,98 @@
+body {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lim-scooters-service {
+    background-color: #0000008a;
+    border-radius: 15px;
+    margin: 1.5rem 17rem 4rem 17rem;
+    padding: 5rem;
+}
+
+header  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 12rem;
+}
+
+h1 {
+    color: lime;
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+}
+
+#scooters-service-options {
+    background-color: lime;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.btn-scooters-service-options {
+    background-color: lightgrey;
+    border: solid 1px black;
+    border-radius: 2px;
+    font-size: 0.6rem;
+    margin: 0.5rem 0;
+    padding: 0.1rem 0.4rem;
+}
+
+:hover.btn-scooters-service-options {
+    background-color: white;
+}
+
+.scooter-info {
+    margin-bottom: 1rem;
+}
+
+.scooter-info span {
+    font-size: 0.45rem;
+    padding-right: 0.4rem;
+}
+
+.scooter-info p {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.scooter-name {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.scooter-position, .scooter-charge {
+    font-size: 0.8rem;
+}
+
+.scooter-charge p {
+    margin: 0.1rem;
+}
+
+.scooter-charge-status {
+    border-radius: 3px;
+    height: 1.4rem;
+}
+
+#scooter-charge-status-one {
+    background-color: #e7b540;
+    width: 16rem;
+}
+
+#scooter-charge-status-two {
+    background-color: rgb(3, 183, 3);
+    width: 28rem;
+}
+
+#scooter-charge-status-three {
+    background-color: rgb(164, 59, 59);
+    width: 7rem;
+}
